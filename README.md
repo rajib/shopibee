@@ -13,6 +13,7 @@ You can setup your Shopify and Supportbee account by setting specific ENV variab
 $ heroku config:add SUPPORTBEE_API_TOKEN="<api_token>"
 $ heroku config:add SHOPIFY_API_KEY="<api_key>"
 $ heroku config:add SHOPIFY_PASSWORD="<password>"
+$ heroku config:add SHOPIFY_DOMAIN="<shopibees_domain>"
 ```
 
 Once you push the app to heroku, add the following URL in the web hook screen of supportbee
