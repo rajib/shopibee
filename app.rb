@@ -21,7 +21,8 @@ module Shopibee
       payload = json['payload']
       ticket_id = payload['ticket']['id']
       requester = payload['ticket']['requester']
-      ticket_url = SUPPORTBEE.ticket_url(ticket_id)
+      subdomain = payload['company']['subdomain']
+      ticket_url = SUPPORTBEE.ticket_url(subdomain, ticket_id)
 
       if payload['action_type'] == 'ticket.created'
         customers = JSON.parse(RestClient.get(SHOPIFY.customers))["customers"]
