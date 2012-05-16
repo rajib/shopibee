@@ -6,7 +6,7 @@ module Shopify
 			@api_key = options[:api_key]
 			@password = options[:password]
 		end
-
+		
 		def method_missing(m)
 			"https://#{@api_key}:#{@password}@shopibees.myshopify.com/admin/#{m}.json"
 		end
