@@ -1,13 +1,13 @@
-Shopibees
-=========
+Shopibee
+========
 
 SupportBee Web Hook To Shopify
 
 Adding Shopify support to SupportBee is very easy using SupportBee's web hook feature. Fork this repo and host it on heroku to get going. 
 
-# Setting up Campfire configuration
+# Setting up Shopify and Supportbee configuration
 
-You can setup your campfire account by setting specific ENV variables on heroku
+You can setup your Shopify and Supportbee account by setting specific ENV variables on heroku
 
 ```
 $ heroku config:add SUPPORTBEE_API_TOKEN="<api_token>"
