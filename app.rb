@@ -10,7 +10,7 @@ module Shopibee
     register Sinatra::Initializers
 
     get '/' do
-      "Congradulations!
+      "Congratulations!
       You're running a Shopibees on Heroku!"
     end
 
