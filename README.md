@@ -1,5 +1,5 @@
-Shopibee
-========
+Shopibee (Beta)
+===============
 
 SupportBee Web Hook To Shopify
 
