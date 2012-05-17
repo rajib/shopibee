@@ -1,3 +1,3 @@
 SUPPORTBEE = Supportbee.new({
-  :api_token => ENV['SUPPORT_BEE_API_TOKEN']
+  :api_token => "0jlHNYDTX1-zdME60_RM"
 })
