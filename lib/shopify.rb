@@ -9,7 +9,7 @@ module Shopify
       @domain = options[:domain]
     end
 
-    def method_missing(m, subdomain)
+    def method_missing(m)
       "https://#{@api_key}:#{@password}@#{@domain}/admin/#{m}.json"
     end
   end
